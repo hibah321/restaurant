@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="new_resto influencer">
+        <div class="sidebar"></div>
+        <div class="main">
+            <button class="new-resto" id="add">Add influencer</button>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <td></td>
+                    </thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="form-modal" id="modal">
+            <div class="modal-content">
+                <form action="" id="form">
+                    <div class="input-field">
+                        <div>
+                            <label for="name" id="name">Influencer name</label>
+                            <input type="text" name="name" placeholder="Select influencer">
+                        </div>
+                        <div>
+                            <label for="link" id="link">Channel link</label>
+                            <input type="text" name="link" placeholder="Channel link">
+                        </div>
+                        <div>
+                            <label for="image">Add influencer image</label>
+                            <div id="image-field" ><span id="image-name" onclick="getFile()">Upload Image</span> <span id="remove">Remove</span></div>
+                            <div style='height: 0px;width:0px; overflow:hidden;'><input id="upfile" name="attachment" type="file" accept="image/*" value="upload" onchange="sub(this)"/></div>
+                        </div>
+                    
+                    </div>
+                    <button type="submit">Add influencer</button>
+                    <button type="reset" class="white-btn" onclick="cancel()">Cancel</button>
+                </form> 
+        </div>
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
