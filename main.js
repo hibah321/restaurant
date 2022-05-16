@@ -7,6 +7,10 @@ const remove_btn = document.getElementById('remove')
 const image_name = document.getElementById('image-name')
 const form = document.getElementById('form')
 
+window.addEventListener('reload', () => {
+    form.reset()
+})
+
 add_btn.addEventListener('click', () => {
     modal.style.display = 'flex'
     

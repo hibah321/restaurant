@@ -9,19 +9,34 @@
 </head>
 <body>
     <div class="new_resto influencer">
-        <div class="sidebar"></div>
+        <div class="sidebar">
+            <a href="">Influencers</a>
+            <a href="">Restaurant</a>
+            <a href="">Shuffles</a>
+            <a href="">Collections</a>
+        </div>
         <div class="main">
-            <button class="new-resto" id="add">Add influencer</button>
+            <div class="main-top">
+                <h1 class="headings">Influencers</h1>
+                <button class="new-resto" id="add">Add influencer</button>
+            </div>
             <div class="table-wrap">
                 <table>
                     <thead>
+                        <td>Influencer ID</td>
+                        <td>Influencer name</td>
+                        <td>Channel Link</td>
+                        <td>No. of restos</td>
+                        <td>Image</td>
                         <td></td>
                     </thead>
                     <tr>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
+                        <td>100001</td>
+                        <td>Mrinal</td>
+                        <td>Youtube.com/mrinaldas</td>
+                        <td>2</td>
+                        <td>Mrinal.jpg</td>
+                        <td><button class="edit-btn remove-btn">Edit</button></td>
                     </tr>
                 </table>
             </div>
@@ -30,6 +45,7 @@
             <div class="modal-content">
                 <form action="" id="form">
                     <div class="input-field">
+                        <h1 class="headings">Add influencer</h1>
                         <div>
                             <label for="name" id="name">Influencer name</label>
                             <input type="text" name="name" placeholder="Select influencer">
