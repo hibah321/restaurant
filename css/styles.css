@@ -60,7 +60,7 @@ input[type="text"] {
   border: 2px solid #EEEEEE;
   color: #777777;
   padding-left: 10px;
-  height: 2.5rem;
+  height: 2.75rem;
 }
 
 .input-field {
@@ -299,12 +299,12 @@ i {
 
 .container-login button, .container-login input {
   width: 100%;
-  height: 2.25rem;
+  height: 2.75rem;
 }
 
 .container-login button {
   width: 100%;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 table {
